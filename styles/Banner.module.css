@@ -1,0 +1,40 @@
+.section_banner{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    font-weight: 400;
+    padding: 50px 0;
+    font-style: normal;
+}
+
+.banner_content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.banner_name{
+    font-size: 14px;
+    line-height: 19px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.banner_date{
+    padding-left: 15px;
+}
+
+.banner_title{
+    word-break: break-all;
+    width: 65%;
+}
+
+.banner_desc{
+    width: 60%;
+    font-style: oblique;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.banner_author{
+    gap: 20px;
+}

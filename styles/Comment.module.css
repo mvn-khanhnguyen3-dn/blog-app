@@ -1,0 +1,45 @@
+.section_comment{
+    width: 60%;
+    height: 100%;
+    background: #fff;
+    color: #111;
+}
+
+.section_comment,
+.comment_editor{
+    border-radius: 5px;
+}
+
+.comment_editor{
+    display: flex;
+    flex-direction: column-reverse;
+    opacity: .8;
+}
+
+.comment_title{
+    text-align: left;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.btn_comment{
+    background: #34d5eb;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    margin: 10px 10px 10px auto;
+}
+
+.text_comment{
+    border: none;
+    outline: none;
+    text-align: left;
+    padding: 10px;
+    width: 65%;
+}
+
+.comment_card{
+    background: #111;
+    color: #fff;
+    padding: 20px;
+}
